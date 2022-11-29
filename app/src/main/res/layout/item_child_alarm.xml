@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/child_alarm_holder"
+            android:paddingBottom="@dimen/medium_margin"
+            android:paddingLeft="@dimen/activity_margin"
+            android:paddingTop="@dimen/medium_margin">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/item_holder">
+
+                <com.simplemobiletools.commons.views.MyTextView
+                    android:id="@+id/tv_child_alarm_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/tv_child_alarm_id"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:text="07:00"
+                    android:textSize="@dimen/middle_text_size" />
+
+
+                <com.simplemobiletools.commons.views.MyTextView
+                    android:id="@+id/tv_child_alarm_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toLeftOf="@+id/switch_toggle_silent_alarm"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:text=""
+                    android:layout_marginRight="20dp"
+                    android:textSize="@dimen/middle_text_size" />
+
+                <com.simplemobiletools.commons.views.MySwitchCompat
+                    android:id="@+id/switch_toggle_silent_alarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/ib_delete_child_alarm"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp" />
+
+                <ImageButton
+                    android:id="@+id/ib_delete_child_alarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="?attr/listPreferredItemPaddingLeft"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_delete_vector" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
