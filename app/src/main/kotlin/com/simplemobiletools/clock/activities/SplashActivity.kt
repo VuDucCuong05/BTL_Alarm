@@ -23,6 +23,7 @@ class SplashActivity : BaseSplashActivity() {
             }
             else -> startActivity(Intent(this, MainActivity::class.java))
         }
+
         finish()
     }
 }
