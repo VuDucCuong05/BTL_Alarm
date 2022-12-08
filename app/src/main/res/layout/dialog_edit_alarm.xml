@@ -112,6 +112,7 @@
             android:textSize="@dimen/normal_text_size"/>
 
         <RelativeLayout
+            android:visibility="invisible"
             android:id="@+id/edit_send_broadcast_before_alarm_holder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,9 +137,8 @@
                 android:id="@+id/ib_silent_alarm_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_info"
                 android:layout_alignParentRight="true"
-                />
+                android:src="@drawable/ic_info" />
         </RelativeLayout>
 
 
