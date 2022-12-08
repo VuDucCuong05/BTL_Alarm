@@ -18,7 +18,7 @@ import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.FAQItem
 import kotlinx.android.synthetic.main.activity_main.*
-
+//property of nhom 4
 class MainActivity : SimpleActivity() {
     private var storedTextColor = 0
     private var storedBackgroundColor = 0
