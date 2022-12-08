@@ -93,6 +93,7 @@ class TimerFragment : Fragment() {
                     context.checkAlarmsWithDeletedSoundUri(it.uri)
                 })
             }
+            
         }
 
         initialSecs = config.timerSeconds
