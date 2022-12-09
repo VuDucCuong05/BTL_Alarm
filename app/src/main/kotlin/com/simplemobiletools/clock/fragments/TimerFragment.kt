@@ -44,7 +44,7 @@ class TimerFragment : Fragment() {
     private var currentTicks = 0
     private var updateHandler = Handler()
     private var isForegrounded = true
-
+ 
     lateinit var view: ViewGroup
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
